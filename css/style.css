@@ -182,6 +182,7 @@ img {
 .banner-buttons {
   padding: 10px 32px;
   border-radius: 4px;
+  border: transparent;
   font-family: inherit;
   color: var(--primary-white-color);
   background-color: var(--primary-blue-color);
@@ -569,6 +570,7 @@ img {
   width: 528px;
   height: 580px;
   background-color: var(--primary-white-color);
+  padding: 40px;
 }
 .modal-close-btn {
   position: absolute;
@@ -584,4 +586,41 @@ img {
   background-color: transparent;
   padding: 0;
   cursor: pointer;
+}
+.contact-form-field {
+  display: block;
+  margin-bottom: 10px;
+}
+.contact-form-title {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--primary-sonic-color);
+}
+.contact-form-input-wrapper {
+  position: relative;
+  margin-top: 4px;
+
+}
+.contact-form-input {
+  width: 100%;
+  height: 40px;
+  padding-left: 42px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.contact-form-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+}
+.contact-form-message {
+  width: 100%;
+  height: 120px;
+  resize: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-top: 4px;
+  padding: 12px 16px;
 }
